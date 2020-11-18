@@ -4,11 +4,14 @@
         <meta charset="UTF-8">
         <meta name="author" content="Charlone Agius">
         <title>{% block title %}Welcome!{% endblock %}</title>
-        <link href="{{ asset('assets/scss/style.scss') }}" rel="stylesheet">
+        <link href="{{ asset('build/vendors~app.css') }}" rel="stylesheet">
+        <link href="{{ asset('build/app.css') }}" rel="stylesheet">
         {% block stylesheets %}{% endblock %}
     </head>
     <body>
         {% block body %}{% endblock %}
+
+        <script src="{{ asset('build/vendors~app.js') }}"></script>
         {% block javascripts %}{% endblock %}
     </body>
 </html>

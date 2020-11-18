@@ -20,12 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce4e22ec-17a6-4096-8509-0565083443ee" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SchoolSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SchoolSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DefaultController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +92,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
       <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kO7RucXkVkUIPiEWOAU1zvfjyq" />
@@ -96,12 +103,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/css/Bootstrap" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/assets/css/Bootstrap" />
+      <recent name="$PROJECT_DIR$/public/assets/js/Bootstrap" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/styles" />
       <recent name="$PROJECT_DIR$/public/assets/images" />
     </key>
   </component>
@@ -114,7 +127,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605559780677</updated>
       <workItem from="1605559783523" duration="2240000" />
-      <workItem from="1605639686156" duration="1045000" />
+      <workItem from="1605639686156" duration="8876000" />
+      <workItem from="1605724594558" duration="543000" />
     </task>
     <servers />
   </component>
@@ -131,11 +145,44 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="378" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605644901061">
+      <screen x="0" y="25" width="1280" height="702" />
+    </state>
+    <state x="378" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1280.702@0.25.1280.702" timestamp="1605644901061" />
+    <state x="295" y="158" key="EditFileWatcherDialog" timestamp="1605645405737">
+      <screen x="0" y="25" width="1280" height="702" />
+    </state>
+    <state x="295" y="158" key="EditFileWatcherDialog/0.25.1280.702@0.25.1280.702" timestamp="1605645405737" />
+    <state width="1238" height="171" key="GridCell.Tab.0.bottom" timestamp="1605644494672">
+      <screen x="0" y="25" width="1280" height="702" />
+    </state>
+    <state width="1238" height="171" key="GridCell.Tab.0.bottom/0.25.1280.702@0.25.1280.702" timestamp="1605644494672" />
+    <state width="1238" height="171" key="GridCell.Tab.0.center" timestamp="1605644494671">
+      <screen x="0" y="25" width="1280" height="702" />
+    </state>
+    <state width="1238" height="171" key="GridCell.Tab.0.center/0.25.1280.702@0.25.1280.702" timestamp="1605644494671" />
+    <state width="1238" height="171" key="GridCell.Tab.0.left" timestamp="1605644494670">
+      <screen x="0" y="25" width="1280" height="702" />
+    </state>
+    <state width="1238" height="171" key="GridCell.Tab.0.left/0.25.1280.702@0.25.1280.702" timestamp="1605644494670" />
+    <state width="1238" height="171" key="GridCell.Tab.0.right" timestamp="1605644494671">
+      <screen x="0" y="25" width="1280" height="702" />
+    </state>
+    <state width="1238" height="171" key="GridCell.Tab.0.right/0.25.1280.702@0.25.1280.702" timestamp="1605644494671" />
+    <state x="149" y="25" width="982" height="702" key="SettingsEditor" timestamp="1605644508350">
+      <screen x="0" y="25" width="1280" height="702" />
+    </state>
+    <state x="149" y="25" width="982" height="702" key="SettingsEditor/0.25.1280.702@0.25.1280.702" timestamp="1605644508350" />
     <state x="341" y="102" width="597" height="548" key="find.popup" timestamp="1605560313597">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
     <state x="341" y="102" width="597" height="548" key="find.popup/0.25.1280.702@0.25.1280.702" timestamp="1605560313597" />
+    <state x="305" y="51" width="670" height="676" key="search.everywhere.popup" timestamp="1605647039136">
+      <screen x="0" y="25" width="1280" height="702" />
+    </state>
+    <state x="305" y="51" width="670" height="676" key="search.everywhere.popup/0.25.1280.702@0.25.1280.702" timestamp="1605647039136" />
   </component>
 </project>
