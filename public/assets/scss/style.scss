@@ -1,4 +1,5 @@
 $backgroundColor: rgba(218, 175, 227, 0.6);
+$hdrFont: 'Merriweather', serif;
 
 body {
   background-image: url("../../assets/images/purple_drops.jpg");
@@ -8,6 +9,17 @@ body {
   background-size: cover;
 }
 
-.title {
-  background-color: $backgroundColor;
+.defaultContainer {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url("../../assets/images/introWall.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .title {
+    color: white;
+    font-family: $hdrFont;
+    text-align: center;
+    width: 50%;
+  }
 }
