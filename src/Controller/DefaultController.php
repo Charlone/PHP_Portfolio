@@ -14,7 +14,8 @@ class DefaultController extends AbstractController
     public function index(): Response
     {
         return $this->render('default/index.html.twig', [
-            'header' => 'Welcome to Portfolio College'
+            'title' => 'Portfolio College',
+            'header' => "Welcome to Portfolio College"
         ]);
     }
 }

@@ -1,11 +1,14 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Portfolio College{% endblock %}
+{% block title %}{{ title }}{% endblock %}
 
 {% block body %}
     <div class="defaultContainer">
         <div class="title">
             <h1 class="introHDR">{{ header }}</h1>
+        </div>
+        <div class="introBTNContainer">
+            <a href="#"><input class="btn btn-lg btn-success introBTN" type="submit" value="Come in!"></a>
         </div>
     </div>
 {% endblock %}
