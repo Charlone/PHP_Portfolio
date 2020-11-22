@@ -4,11 +4,29 @@
 
 {% block body %}
     <div class="defaultContainer">
-        <div class="title">
-            <h1 class="introHDR">{{ header }}</h1>
-        </div>
-        <div class="introBTNContainer">
-            <a href="#"><input class="btn btn-lg btn-success introBTN" type="submit" value="Come in!"></a>
-        </div>
+        <section class="introSection">
+            <div class="title">
+                <h1 class="introHDR">{{ header }}</h1>
+                <h2 class="introSubHDR">{{ subHeader }}</h2>
+            </div>
+
+            <div class="introBTNContainer">
+                <a href="#"><input id="introductionButton" class="btn btn-lg btn-success introBTN" type="submit" value="Come in!"></a>
+            </div>
+        </section>
     </div>
+
+    {% block javascripts %}
+        <script type="application/javascript">
+            let introButton = document.getElementById('introductionButton');
+
+            if(screen.width <= 425) {
+                introButton.classList.remove('btn-lg');
+                introButton.classList.add('btn-md');
+            } else {
+                introButton.classList.remove('btn-md');
+                introButton.classList.add('btn-lg');
+            }
+        </script>
+    {% endblock %}
 {% endblock %}
