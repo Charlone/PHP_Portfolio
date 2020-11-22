@@ -7,8 +7,11 @@
 
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.css';
-import '../public/assets/scss/style.scss';
-import '../public/assets/scss/mobileStyles.scss';
+import './styles/scss/style.scss';
+import './styles/scss/mobileStyles.scss';
+import './styles/scss/tabletStyles.scss';
+import './styles/scss/hdReadyStyles.scss';
+import './styles/scss/fullHDStyles.scss';
 import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
