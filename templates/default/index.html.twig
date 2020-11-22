@@ -19,14 +19,19 @@
     {% block javascripts %}
         <script type="application/javascript">
             let introButton = document.getElementById('introductionButton');
+            let currentScreen = screen.width;
 
-            if(screen.width <= 425) {
-                introButton.classList.remove('btn-lg');
-                introButton.classList.add('btn-md');
-            } else {
-                introButton.classList.remove('btn-md');
-                introButton.classList.add('btn-lg');
+            function mobileButtonSetter(screen) {
+                if (screen <= 425) {
+                    introButton.classList.remove('btn-lg');
+                    introButton.classList.add('btn-md');
+                } else {
+                    introButton.classList.remove('btn-md');
+                    introButton.classList.add('btn-lg');
+                }
             }
+
+            mobileButtonSetter(currentScreen);
         </script>
     {% endblock %}
 {% endblock %}
