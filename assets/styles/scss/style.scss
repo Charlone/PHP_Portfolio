@@ -1,6 +1,7 @@
 $backgroundColor: rgba(218, 175, 227, 0.6);
 $hdrFont: 'Merriweather', serif;
 $buttonFont: 'Bree Serif', serif;
+$textColor: '#9E6933';
 
 //body {
 //  background-image: url("../../../public/assets/images/purple_drops.jpg");
@@ -65,15 +66,16 @@ $buttonFont: 'Bree Serif', serif;
     -webkit-text-stroke-width: 0.7px;
   }
 
-  .navContainer {
-    width: 100%;
-    background-image: url("../../../public/assets/images/nav.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
   a:visited {
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.7px;
   }
+}
+
+#navContainer {
+  width: 100%;
+  background-image: url("../../../public/assets/images/nav.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $textColor;
 }
