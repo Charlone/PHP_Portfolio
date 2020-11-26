@@ -2,12 +2,20 @@ $backgroundColor: rgba(218, 175, 227, 0.6);
 $hdrFont: 'Merriweather', serif;
 $buttonFont: 'Bree Serif', serif;
 
-body {
-  background-image: url("../../../public/assets/images/purple_drops.jpg");
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+//body {
+//  background-image: url("../../../public/assets/images/purple_drops.jpg");
+//  background-position: center;
+//  background-attachment: fixed;
+//  background-repeat: no-repeat;
+//  background-size: cover;
+//}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
 }
 
 .defaultContainer {
@@ -55,6 +63,13 @@ body {
     font-family: $buttonFont;
     margin-top: 30%;
     -webkit-text-stroke-width: 0.7px;
+  }
+
+  .navContainer {
+    width: 100%;
+    background-image: url("../../../public/assets/images/nav.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   a:visited {

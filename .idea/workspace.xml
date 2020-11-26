@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="ce4e22ec-17a6-4096-8509-0565083443ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/scss/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/default/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,6 +102,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/css/Bootstrap" />
@@ -128,7 +133,10 @@
       <workItem from="1605639686156" duration="8876000" />
       <workItem from="1605724594558" duration="7143000" />
       <workItem from="1605815671686" duration="3808000" />
-      <workItem from="1606059515733" duration="9781000" />
+      <workItem from="1606059515733" duration="9830000" />
+      <workItem from="1606157313314" duration="6409000" />
+      <workItem from="1606408764045" duration="78000" />
+      <workItem from="1606408884015" duration="403000" />
     </task>
     <servers />
   </component>
@@ -176,10 +184,10 @@
       <screen x="0" y="25" width="1280" height="702" />
     </state>
     <state x="149" y="25" width="982" height="702" key="SettingsEditor/0.25.1280.702@0.25.1280.702" timestamp="1605644508350" />
-    <state x="341" y="102" width="597" height="548" key="find.popup" timestamp="1605560313597">
+    <state x="341" y="102" width="597" height="548" key="find.popup" timestamp="1606164734152">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
-    <state x="341" y="102" width="597" height="548" key="find.popup/0.25.1280.702@0.25.1280.702" timestamp="1605560313597" />
+    <state x="341" y="102" width="597" height="548" key="find.popup/0.25.1280.702@0.25.1280.702" timestamp="1606164734152" />
     <state x="305" y="51" width="670" height="676" key="search.everywhere.popup" timestamp="1605647039136">
       <screen x="0" y="25" width="1280" height="702" />
     </state>
