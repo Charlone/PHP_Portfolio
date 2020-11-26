@@ -14,14 +14,14 @@
     </head>
     <body>
         {% if app.request.attributes.get('_route') != 'default' %}
-            <div class="navContainer">
+            <div id="navContainer">
                 <nav class="navbar navbar-expand-lg">
                     <a class="navbar-brand" href="{{ path('default') }}"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
+                        <ul class="navbar-nav ml-auto text-center">
     {#                            {% if not app.user %}#}
     {#                                <li class="nav-item {% if app.request.attributes.get('_route') starts with 'app_login' %}active{% endif %}">#}
     {#                                    <a class="nav-link" href="{{ path('app_login') }}">Log-in#}
@@ -30,13 +30,75 @@
     {#                                </li>#}
     {#                            {% endif %}#}
                             <li class="nav-item {% if app.request.attributes.get('_route') starts with 'home' %}active{% endif %}">
-                                <a class="nav-link" href="{{ path('home') }}">Home
+                                <a class="nav-link" href="{{ path('home') }}">
+                                    <i class="fas fa-home"></i>
+                                    <div>
+                                        Home
+                                    </div>
                                     <span class="{% if app.request.attributes.get('_route') starts with 'home' %}sr-only{% endif %}"></span>
                                 </a>
                             </li>
                             <li class="nav-item {% if app.request.attributes.get('_route') starts with 'about' %}active{% endif %}">
-                                <a class="nav-link" href="{{ path('about_us') }}">Our College
+                                <a class="nav-link" href="{{ path('about_us') }}">
+                                    <i class="fas fa-building"></i>
+                                    <div>
+                                        Our College
+                                    </div>
                                     <span class="{% if app.request.attributes.get('_route') starts with 'about' %}sr-only{% endif %}"></span>
+                                </a>
+                            </li>
+                            <li class="nav-item {% if app.request.attributes.get('_route') starts with 'news' %}active{% endif %}">
+                                <a class="nav-link" href="{{ path('news') }}">
+                                    <i class="fas fa-newspaper"></i>
+                                    <div>
+                                        Latest News
+                                    </div>
+                                    <span class="{% if app.request.attributes.get('_route') starts with 'news' %}sr-only{% endif %}"></span>
+                                </a>
+                            </li>
+                            <li class="nav-item {% if app.request.attributes.get('_route') starts with 'courses' %}active{% endif %}">
+                                <a class="nav-link" href="{{ path('courses') }}">
+                                    <i class="fas fa-chalkboard-teacher"></i>
+                                    <div>
+                                        Courses Offered
+                                    </div>
+                                    <span class="{% if app.request.attributes.get('_route') starts with 'courses' %}sr-only{% endif %}"></span>
+                                </a>
+                            </li>
+                            <li class="nav-item {% if app.request.attributes.get('_route') starts with 'calendar' %}active{% endif %}">
+                                <a class="nav-link" href="{{ path('calendar') }}">
+                                    <i class="fas fa-calendar"></i>
+                                    <div>
+                                        School Calendar
+                                    </div>
+                                    <span class="{% if app.request.attributes.get('_route') starts with 'calendar' %}sr-only{% endif %}"></span>
+                                </a>
+                            </li>
+                            <li class="nav-item {% if app.request.attributes.get('_route') starts with 'enroll' %}active{% endif %}">
+                                <a class="nav-link" href="{{ path('enroll') }}">
+                                    <i class="fas fa-door-open"></i>
+                                    <div>
+                                        Enroll with us
+                                    </div>
+                                    <span class="{% if app.request.attributes.get('_route') starts with 'enroll' %}sr-only{% endif %}"></span>
+                                </a>
+                            </li>
+                            <li class="nav-item {% if app.request.attributes.get('_route') starts with 'contact' %}active{% endif %}">
+                                <a class="nav-link" href="{{ path('contact') }}">
+                                    <i class="fas fa-address-book"></i>
+                                    <div>
+                                        Contact Us
+                                    </div>
+                                    <span class="{% if app.request.attributes.get('_route') starts with 'contact' %}sr-only{% endif %}"></span>
+                                </a>
+                            </li>
+                            <li class="nav-item {% if app.request.attributes.get('_route') starts with 'gallery' %}active{% endif %}">
+                                <a class="nav-link" href="{{ path('gallery') }}">
+                                    <i class="fas fa-camera"></i>
+                                    <div>
+                                        Gallery
+                                    </div>
+                                    <span class="{% if app.request.attributes.get('_route') starts with 'gallery' %}sr-only{% endif %}"></span>
                                 </a>
                             </li>
     {#                            <li class="nav-item {% if app.request.attributes.get('_route') starts with 'reports' %}active{% endif %}">#}

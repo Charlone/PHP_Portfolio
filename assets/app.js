@@ -13,8 +13,10 @@ import './styles/scss/tabletStyles.scss';
 import './styles/scss/hdReadyStyles.scss';
 import './styles/scss/fullHDStyles.scss';
 import "../node_modules/bootstrap/scss/bootstrap.scss";
+import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
 const $ = require('jquery');
+require('../node_modules/@fortawesome/fontawesome-free/js/all');
 
 console.log('Hello Webpack Encore! Edit me in assets/app.js');
