@@ -74,6 +74,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   border-bottom: 4px solid white;
+
+  nav {
+    button {
+      span {
+        color: $navTextColor;
+      }
+    }
+  }
 }
 
 #navbarResponsive {
