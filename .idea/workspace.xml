@@ -21,8 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ce4e22ec-17a6-4096-8509-0565083443ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about_us/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about_us/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/calendar/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/calendar/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/courses/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/courses/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/enroll/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/enroll/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/gallery/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gallery/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/news/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/news/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +160,7 @@
       <workItem from="1606681735434" duration="6470000" />
       <workItem from="1607180818808" duration="63000" />
       <workItem from="1607180987872" duration="2000" />
-      <workItem from="1607445191890" duration="1626000" />
+      <workItem from="1607445191890" duration="2358000" />
     </task>
     <servers />
   </component>
