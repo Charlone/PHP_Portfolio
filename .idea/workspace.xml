@@ -21,10 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ce4e22ec-17a6-4096-8509-0565083443ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/scss/fullHDStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/scss/fullHDStyles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/scss/hdReadyStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/scss/hdReadyStyles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/scss/mobileStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/scss/mobileStyles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/styles/scss/tabletStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/scss/tabletStyles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/GalleryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/GalleryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/gallery/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/gallery/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +156,8 @@
       <workItem from="1606681735434" duration="6470000" />
       <workItem from="1607180818808" duration="63000" />
       <workItem from="1607180987872" duration="2000" />
-      <workItem from="1607445191890" duration="2977000" />
+      <workItem from="1607445191890" duration="3201000" />
+      <workItem from="1607453571238" duration="6142000" />
     </task>
     <servers />
   </component>
@@ -175,51 +175,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="328" y="116" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1607180853182">
-      <screen x="0" y="25" width="1280" height="702" />
-    </state>
-    <state x="328" y="116" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.25.1280.702@0.25.1280.702" timestamp="1607180853182" />
-    <state x="378" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605644901061">
-      <screen x="0" y="25" width="1280" height="702" />
-    </state>
-    <state x="378" y="127" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1280.702@0.25.1280.702" timestamp="1605644901061" />
-    <state x="295" y="158" key="EditFileWatcherDialog" timestamp="1605645405737">
-      <screen x="0" y="25" width="1280" height="702" />
-    </state>
-    <state x="295" y="158" key="EditFileWatcherDialog/0.25.1280.702@0.25.1280.702" timestamp="1605645405737" />
-    <state width="1238" height="171" key="GridCell.Tab.0.bottom" timestamp="1606421265876">
-      <screen x="0" y="25" width="1280" height="702" />
-    </state>
-    <state width="1238" height="171" key="GridCell.Tab.0.bottom/0.25.1280.702@0.25.1280.702" timestamp="1606421265876" />
-    <state width="1238" height="171" key="GridCell.Tab.0.center" timestamp="1606421265875">
-      <screen x="0" y="25" width="1280" height="702" />
-    </state>
-    <state width="1238" height="171" key="GridCell.Tab.0.center/0.25.1280.702@0.25.1280.702" timestamp="1606421265875" />
-    <state width="1238" height="171" key="GridCell.Tab.0.left" timestamp="1606421265875">
-      <screen x="0" y="25" width="1280" height="702" />
-    </state>
-    <state width="1238" height="171" key="GridCell.Tab.0.left/0.25.1280.702@0.25.1280.702" timestamp="1606421265875" />
-    <state width="1238" height="171" key="GridCell.Tab.0.right" timestamp="1606421265876">
-      <screen x="0" y="25" width="1280" height="702" />
-    </state>
-    <state width="1238" height="171" key="GridCell.Tab.0.right/0.25.1280.702@0.25.1280.702" timestamp="1606421265876" />
-    <state x="149" y="25" width="982" height="702" key="SettingsEditor" timestamp="1605644508350">
-      <screen x="0" y="25" width="1280" height="702" />
-    </state>
-    <state x="149" y="25" width="982" height="702" key="SettingsEditor/0.25.1280.702@0.25.1280.702" timestamp="1605644508350" />
-    <state x="259" y="25" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606683643572">
-      <screen x="0" y="25" width="1280" height="702" />
-    </state>
-    <state x="259" y="25" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1280.702@0.25.1280.702" timestamp="1606683643572" />
-    <state x="341" y="102" width="597" height="548" key="find.popup" timestamp="1606164734152">
-      <screen x="0" y="25" width="1280" height="702" />
-    </state>
-    <state x="341" y="102" width="597" height="548" key="find.popup/0.25.1280.702@0.25.1280.702" timestamp="1606164734152" />
-    <state x="305" y="51" width="670" height="676" key="search.everywhere.popup" timestamp="1605647039136">
-      <screen x="0" y="25" width="1280" height="702" />
-    </state>
-    <state x="305" y="51" width="670" height="676" key="search.everywhere.popup/0.25.1280.702@0.25.1280.702" timestamp="1605647039136" />
   </component>
 </project>
