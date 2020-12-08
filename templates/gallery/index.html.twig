@@ -1,7 +1,111 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello GalleryController!{% endblock %}
+{% block title %}{{ title }}{% endblock %}
 
 {% block body %}
+    <div class="slideshow-container">
+        <div class="mySlides fade-pic">
+            <div class="numbertext">1/8</div>
+            <img src="{{ asset("assets/images/gallery_outside_school.jpg") }}">
+            <div class="text text-white">Our college <i class="fas fa-school"></i></div>
+        </div>
 
+        <div class="mySlides fade-pic">
+            <div class="numbertext">2/8</div>
+            <img src="{{ asset("assets/images/gallery_corridor.jpg") }}">
+            <div class="text text-white">Peek inside</div>
+        </div>
+
+        <div class="mySlides fade-pic">
+            <div class="numbertext">3/8</div>
+            <img src="{{ asset("assets/images/gallery_library.jpg") }}">
+            <div class="text text-white">Library fully stocked! <i class="fas fa-book"></i></div>
+        </div>
+
+        <div class="mySlides fade-pic">
+            <div class="numbertext">4/8</div>
+            <img src="{{ asset("assets/images/gallery_girl_library.jpg") }}">
+            <div class="text text-white">Your quiet study favourite place <i class="fas fa-thumbs-up"></i></div>
+        </div>
+
+        <div class="mySlides fade-pic">
+            <div class="numbertext">5/8</div>
+            <img src="{{ asset("assets/images/gallery_teacher.jpg") }}">
+            <div class="text text-white">Top academic staff that brings out the best in you!</div>
+        </div>
+
+        <div class="mySlides fade-pic">
+            <div class="numbertext">6/8</div>
+            <img src="{{ asset("assets/images/gallery_classroom.jpg") }}">
+            <div class="text text-white">State of the art classrooms <i class="fas fa-smile-wink"></i></div>
+        </div>
+
+        <div class="mySlides fade-pic">
+            <div class="numbertext">7/8</div>
+            <img src="{{ asset("assets/images/gallery_graduates_hall.jpg") }}">
+            <div class="text text-white">Our successful students <i class="fas fa-graduation-cap"></i></div>
+        </div>
+
+        <div class="mySlides fade-pic">
+            <div class="numbertext">8/8</div>
+            <img src="{{ asset("assets/images/gallery_graduates.jpg") }}">
+            <div class="text text-white">You could be the next star! <i class="fas fa-grin-wink"></i></div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+    </div>
+
+    {% block javascripts %}
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName('mySlides');
+            let dots = document.getElementsByClassName('dot');
+
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = 'none';
+            }
+
+            for (i = 0; i < dots.length; i++) {
+                dots.className = dots[i].className.replace(" activeDot", '');
+            }
+
+            slides[slideIndex-1].style.display = 'block';
+            dots[slideIndex-1].className += ' activeDot';
+        }
+    </script>
+    {% endblock %}
 {% endblock %}
