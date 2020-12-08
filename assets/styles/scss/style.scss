@@ -93,3 +93,13 @@ body {
     }
   }
 }
+
+#bodySection {
+  background-image: url("../../../public/assets/images/backgroundCover.jpg");
+  width: 100%;
+  height: 82vh;
+  max-height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
